@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tagline {
+    @apply font-inter font-normal text-3xl md:text-5xl;
+}
+
+.email-address-box {
+    @apply outline-none hover:outline-none p-4 placeholder:text-custom-gray font-inter text-lg rounded-sm bg-white
+    hover:bg-white hover:pointer-events-none mt-4 text-custom-gray;
+}
